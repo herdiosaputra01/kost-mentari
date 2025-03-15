@@ -19,7 +19,7 @@
                     <a class="nav-link text-white" aria-current="page" href="/mahasiswa">Tambah Kamar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/dosen">Peasnan Kamar</a>
+                    <a class="nav-link text-white" href="/dosen">Pesanan Kamar</a>
                 </li> 
             </div>
             <div class="bg-white px-4 py-2 rounded">Herdio Saputra <br> 0822 8307 4743</div>
