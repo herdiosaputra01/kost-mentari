@@ -71,6 +71,8 @@
                         <option value="13">13</option>
                       </select>    
                     <div class="mb-3">
+                        <br>
+                        <h4>List Harga Kamar</h4>
                         <label for="exampleInputPassword1" class="form-label">Harga 1 Tahun</label>
                         <input type="text" name="1tahun" class="form-control" id="exampleInputPassword1">
                     </div>

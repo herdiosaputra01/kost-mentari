@@ -26,26 +26,53 @@
         </div>
         
     </nav>
-    <br>
-   
-    <section class="container mx-auto p-8">
-        <h1 class="text-4xl font-bold">Temukan Hunian Nyaman di Kos-Kosan Kami</h1>
-        <p class="text-gray-700 mt-2">Selamat Datang di Kost Pria Pondok Mentari! Temukan Kenyamanan Sejati Dalam Hunian Kami.</p>
 
-        <div class="flex items-center space-x-2 mt-4">
-            <div class="w-4 h-4 bg-black rounded-full"></div>
-            <p class="text-gray-800">Lamgugob, Banda Aceh City, Aceh, Banda Aceh, Indonesia</p>
-        </div>
-        
-
-        <div class="container text-center mt-3 bg-white">
-            <div class="row">
-                <div class="col-4">
-                   <img src="{{asset('image/kost.jpg')}}" class="img-thumbnail img-fluid" alt="">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-5 m-auto">
+                <div class="card">
+                <div class="card-header">
+                    <h3 class="float-start">Pesanan Kamar</h3>
+                    
+                </div>
+                
+                <div class="card-body">
+                <form action="proses.php" method="post" enctype="multipart/form-data">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Konfirmasi Pesanan
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Konfirmasi Pesanan</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Apakah Anda Setuju Atas Pesanan Ini
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak Setuju</button>
+                            <button type="button" class="btn btn-primary">Setuju</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Bukti Pembayaran</button>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Pembuatan Kwitansi</button>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+                </div>
                 </div>
             </div>
-
-    </section>
+        </div>
+    </div>
 
     <footer class="fixed-bottom bg-secondary text-white py-2 mt-4 text-center">
         Copyright &copy; Herdio Saputra - 2025
