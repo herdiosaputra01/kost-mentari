@@ -17,5 +17,13 @@ Route::get('/', function () {
 });
 
 Route::get('/beranda', function () {
-    return view('beranda.beranda');
+    return view('layout.beranda');
+});
+
+Route::get('/tambah', function () {
+    return view('layout.tambah');
+});
+
+Route::get('/pesanan', function () {
+    return view('layout.pesanan');
 });
