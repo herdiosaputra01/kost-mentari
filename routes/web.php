@@ -16,14 +16,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/master', function () {
+    return view('layout.master');
+});
+
 Route::get('/beranda', function () {
-    return view('layout.beranda');
+    return view('data.beranda');
 });
 
 Route::get('/tambah', function () {
-    return view('layout.tambah');
+    return view('data.tambah');
 });
 
 Route::get('/pesanan', function () {
-    return view('layout.pesanan');
+    return view('data.pesanan');
 });

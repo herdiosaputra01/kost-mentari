@@ -1,32 +1,11 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <title>Kost Pria Pondok Mentari</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-secondary ">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="beranda">Beranda</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="/tambah">Tambah Kamar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="/pesanan">Pesanan Kamar</a>
-                </li> 
-            </div>
-            <div class="bg-white px-4 py-2 rounded">Herdio Saputra <br> 0822 8307 4743</div>
-        </div>
-        
-    </nav>
-
+@extends('layout.master')
+@section('title')
+pesanan
+@endsection
+@section('MenuPes')
+active
+@endsection
+@section('konten')
     <div class="container">
         <div class="row mt-5">
             <div class="col-5 m-auto">
@@ -73,12 +52,7 @@
             </div>
         </div>
     </div>
+    @endsection
 
-    <footer class="fixed-bottom bg-secondary text-white py-2 mt-4 text-center">
-        Copyright &copy; Herdio Saputra - 2025
-    </footer>
 
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-</body>
-</html>
+
