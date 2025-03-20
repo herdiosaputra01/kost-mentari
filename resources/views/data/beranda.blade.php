@@ -13,16 +13,17 @@ active
 
         <div class="flex items-center space-x-2 mt-4">
             <div class="w-4 h-4 bg-black rounded-full"></div>
-            <p class="text-gray-800">Lamgugob, Banda Aceh City, Aceh, Banda Aceh, Indonesia</p>
+            
+            <p class="text-gray-800">
+                    <img src="{{ asset('image/lokasi.png') }}" alt="Logo" width="50" height="50">
+                Jl. Prada, Lamgugob, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24415</p>
         </div>
         
-
         <div class="container text-center mt-6 bg-white">
             <div class="row">
                 <div class="col-6">
                     <img src="{{asset('image/kost.jpg')}}" class="img-thumbnail img-fluid" alt="kost">
                 </div>
-
                         <div class="col-6">
                             <title>Kamar</title>
                             <style>
@@ -61,7 +62,8 @@ active
         </div>
 
     </section>
-    
+    <br>
+    <br>
     @endsection
 
 
